@@ -14,7 +14,7 @@ $mysql = new PDO($dsn, $mysqlConfig['user'], $mysqlConfig['password']);
 
 // is _schema table there? if not, let's create it
 if (!$mysql->query('select 1 from _schema')) {
-    $schemaQuery = file_get_contents(__DIR__ . '/../db/schema.sql');
+    $schemaQuery = file_get_contents(__DIR__ . '/../../../../db/schema.sql');
     if ($mysql->exec($schemaQuery) === false) {
         $error = $mysql->errorInfo();
         echo "Cannot apply schema.sql: " . $error[2] . "\n";
