@@ -4,7 +4,8 @@ This applucation helps you to migrate your MySQL schema.
 # Usage #
 You need:
  * A config/environment.yml with your db credentials.
-```yml
+
+```
 db:
   host: localhost
   schema: incident_mgr
