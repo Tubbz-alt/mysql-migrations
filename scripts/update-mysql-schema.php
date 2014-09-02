@@ -58,7 +58,7 @@ if (empty($deltas)){
 ksort($deltas);
 
 foreach ($deltas as $key => $delta) {
-    if ($mysql->exec(file_get_contents(__DIR__ . '/../db/deltas/' . $delta)) === false) {
+    if ($mysql->exec(file_get_contents(__DIR__ . '/../../../../db/deltas/' . $delta)) === false) {
         $error = $mysql->errorInfo();
         $mysql->exec("insert into _schema (version, result) values ($key, 'error')");
         echo "Error trying to apply delta $delta: " . $error[2] . "\n";
