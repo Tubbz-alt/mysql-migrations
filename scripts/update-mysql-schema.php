@@ -41,7 +41,7 @@ $rows = $statement->fetchAll();
 $latestVersion = empty($rows) ? 0 : $rows[0]['version'];
 
 $deltas = array();
-foreach (scandir(__DIR__ . '/../db/deltas/') as $delta) {
+foreach (scandir(__DIR__ . '/../../../../db/deltas/') as $delta) {
     if (!preg_match('/^v(?<version>[0-9]+)\.sql$/', $delta, $matches)) {
         continue;
     }
