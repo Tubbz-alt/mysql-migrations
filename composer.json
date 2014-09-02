@@ -1,0 +1,24 @@
+{
+    "name": "shazam/mysql-migrations",
+    "description": "MySQL migrations.",
+    "type": "script",
+    "authors": [
+        {
+            "name": "Toni Lopez",
+            "email": "toni.lopez@shazam.com"
+        }
+    ],
+    "repositories": [
+        {
+            "url": "git@gitlab.uk.shazamteam.net:infra-tools/common-config.git",
+            "type": "git"
+        }
+    ],
+    "bin": ["scripts/update-mysql.php"],
+    "config": {
+        "bin-dir": "scripts/"
+    },
+    "require": {
+        "shazam/common-config": "0.1.0"
+    }
+}
