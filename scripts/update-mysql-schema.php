@@ -7,7 +7,7 @@ require_once __DIR__ . '/../../../autoload.php';
 
 $config = Config::getInstance();
 $path = __DIR__ . '/../../../../config';
-$config->loadConfig("$path/environment.yml");
+$config->loadConfig(array("$path/environment.yml"));
 $mysqlConfig = $config->fetch('db');
 $dsn = "mysql:dbname={$mysqlConfig['schema']};host={$mysqlConfig['host']}";
 $mysql = new PDO($dsn, $mysqlConfig['user'], $mysqlConfig['password']);
