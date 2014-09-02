@@ -3,10 +3,10 @@
 use Common\Config;
 
 date_default_timezone_set('UTC');
-require_once __DIR__ . '/../vendor/autoload.php';
+require_once __DIR__ . '/../../../autoload.php';
 
 $config = Config::getInstance();
-$path = __DIR__ . '/../config';
+$path = __DIR__ . '/../../../../config';
 $config->loadConfig("$path/environment.yml");
 $mysqlConfig = $config->fetch('db');
 $dsn = "mysql:dbname={$mysqlConfig['schema']};host={$mysqlConfig['host']}";

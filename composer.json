@@ -15,9 +15,6 @@
         }
     ],
     "bin": ["scripts/update-mysql-schema.php"],
-    "config": {
-        "bin-dir": "scripts/"
-    },
     "require": {
         "shazam/common-config": "0.1.0"
     }
