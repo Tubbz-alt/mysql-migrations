@@ -18,6 +18,8 @@ db:
  * Have a db/deltas directory.
  * Add there s many v*.sql as you need, where * is an integer. Each of these sql will be the next delta to apply.
 
+You can have as many sql queries as you want in each delta or schema file.
+
 # Example #
 My db/schema.sql could be:
 ```sql
@@ -29,5 +31,5 @@ create table example_two (id int);
 ```
 Finally a second delta db/deltas/v2.sql:
 ```sql
-alert table example add name varchar(65);
+alter table example add name varchar(65);
 ```
