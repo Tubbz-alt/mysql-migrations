@@ -8,14 +8,8 @@
             "email": "toni.lopez@shazam.com"
         }
     ],
-    "repositories": [
-        {
-            "url": "git@gitlab.uk.shazamteam.net:infra-tools/common-config.git",
-            "type": "git"
-        }
-    ],
     "bin": ["scripts/update-mysql-schema.php"],
     "require": {
-        "shazam/common-config": "0.1.0"
+        "shazam/easy-config": "dev-master"
     }
 }

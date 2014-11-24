@@ -16,7 +16,7 @@
  * @author toni lopez <toni.lopez@shazam.com>
  */
 
-use Common\Config;
+use EasyConfig\Config;
 
 date_default_timezone_set('UTC');
 require_once __DIR__ . '/../../../autoload.php';

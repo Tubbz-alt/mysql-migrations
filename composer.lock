@@ -4,29 +4,36 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "de54e86ee59befed779e327243ecf82b",
+    "hash": "1644796b509a1f286f280421dee12981",
     "packages": [
         {
-            "name": "shazam/common-config",
-            "version": "0.1.0",
+            "name": "shazam/easy-config",
+            "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "git@gitlab.uk.shazamteam.net:infra-tools/common-config.git",
-                "reference": "4c4d7325038edc52f017009085965854a89f9628"
+                "url": "https://github.com/shazam/easy-config.git",
+                "reference": "35fc50a47511ebfd719775bbdef7dc85f0fefb38"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/shazam/easy-config/zipball/35fc50a47511ebfd719775bbdef7dc85f0fefb38",
+                "reference": "35fc50a47511ebfd719775bbdef7dc85f0fefb38",
+                "shasum": ""
             },
             "require": {
                 "symfony/yaml": "2.4.*"
             },
             "require-dev": {
-                "phpunit/phpunit": "~4.0"
+                "phpunit/phpunit": "4.*"
             },
             "type": "helper",
             "autoload": {
                 "psr-4": {
-                    "Common\\Tests\\": "tests/",
-                    "Common\\": "src/"
+                    "EasyConfig\\Tests\\": "tests/",
+                    "EasyConfig\\": "src/"
                 }
             },
+            "notification-url": "https://packagist.org/downloads/",
             "authors": [
                 {
                     "name": "Toni Lopez",
@@ -34,21 +41,21 @@
                 }
             ],
             "description": "Reads Yaml config files",
-            "time": "2014-06-12 14:37:39"
+            "time": "2014-11-24 17:36:40"
         },
         {
             "name": "symfony/yaml",
-            "version": "v2.4.8",
+            "version": "v2.4.10",
             "target-dir": "Symfony/Component/Yaml",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/Yaml.git",
-                "reference": "e63eb0f9edbf4c48c425604a05fd4b04c8a7629a"
+                "reference": "297fd84aa9377e54268e9ff74cb81377350e230f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/Yaml/zipball/e63eb0f9edbf4c48c425604a05fd4b04c8a7629a",
-                "reference": "e63eb0f9edbf4c48c425604a05fd4b04c8a7629a",
+                "url": "https://api.github.com/repos/symfony/Yaml/zipball/297fd84aa9377e54268e9ff74cb81377350e230f",
+                "reference": "297fd84aa9377e54268e9ff74cb81377350e230f",
                 "shasum": ""
             },
             "require": {
@@ -71,36 +78,26 @@
             ],
             "authors": [
                 {
-                    "name": "Fabien Potencier",
-                    "email": "fabien@symfony.com",
-                    "homepage": "http://fabien.potencier.org",
-                    "role": "Lead Developer"
-                },
-                {
                     "name": "Symfony Community",
                     "homepage": "http://symfony.com/contributors"
+                },
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
                 }
             ],
             "description": "Symfony Yaml Component",
             "homepage": "http://symfony.com",
-            "time": "2014-07-09 09:04:55"
+            "time": "2014-09-22 08:51:05"
         }
     ],
-    "packages-dev": [
-
-    ],
-    "aliases": [
-
-    ],
+    "packages-dev": [],
+    "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [
-
-    ],
+    "stability-flags": {
+        "shazam/easy-config": 20
+    },
     "prefer-stable": false,
-    "platform": [
-
-    ],
-    "platform-dev": [
-
-    ]
+    "platform": [],
+    "platform-dev": []
 }
