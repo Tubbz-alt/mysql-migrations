@@ -1,6 +1,7 @@
 {
     "name": "shazam/mysql-migrations",
     "description": "MySQL migrations.",
+    "license": "Apache-2.0",
     "type": "script",
     "authors": [
         {
