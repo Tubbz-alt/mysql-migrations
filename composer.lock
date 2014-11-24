@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "e957ccb587ed22b629a5902332702fde",
+    "hash": "42d15c315ca0c52b8db4b78353a8c7b3",
     "packages": [
         {
             "name": "shazam/easy-config",
