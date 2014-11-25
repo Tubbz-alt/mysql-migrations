@@ -1,5 +1,7 @@
 # MySQL migrations #
-This applucation helps you to migrate your MySQL schema.
+This application helps you to migrate your MySQL schema.
+
+You can add as many deltas as you need and the application will now which ones have been applied and which ones not.
 
 # Usage #
 You need:
