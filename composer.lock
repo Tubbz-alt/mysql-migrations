@@ -4,20 +4,20 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "42d15c315ca0c52b8db4b78353a8c7b3",
+    "hash": "31ec2a91bf138c8105d1b20c589c0922",
     "packages": [
         {
             "name": "shazam/easy-config",
-            "version": "0.1.1",
+            "version": "0.1.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/shazam/easy-config.git",
-                "reference": "35fc50a47511ebfd719775bbdef7dc85f0fefb38"
+                "reference": "37eb3eb62d0cf1047509532301f6031c4e74d1bd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/shazam/easy-config/zipball/35fc50a47511ebfd719775bbdef7dc85f0fefb38",
-                "reference": "35fc50a47511ebfd719775bbdef7dc85f0fefb38",
+                "url": "https://api.github.com/repos/shazam/easy-config/zipball/37eb3eb62d0cf1047509532301f6031c4e74d1bd",
+                "reference": "37eb3eb62d0cf1047509532301f6031c4e74d1bd",
                 "shasum": ""
             },
             "require": {
@@ -34,6 +34,9 @@
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
             "authors": [
                 {
                     "name": "Toni Lopez",
@@ -41,7 +44,7 @@
                 }
             ],
             "description": "Reads Yaml config files",
-            "time": "2014-11-24 17:36:40"
+            "time": "2014-12-09 20:04:24"
         },
         {
             "name": "symfony/yaml",
@@ -96,6 +99,7 @@
     "minimum-stability": "stable",
     "stability-flags": [],
     "prefer-stable": false,
+    "prefer-lowest": false,
     "platform": [],
     "platform-dev": []
 }
