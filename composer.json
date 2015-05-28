@@ -11,6 +11,6 @@
     ],
     "bin": ["scripts/update-mysql-schema.php"],
     "require": {
-        "shazam/easy-config": "0.1.2"
+        "shazam/easy-config": "0.2.0"
     }
 }

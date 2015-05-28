@@ -4,20 +4,20 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "31ec2a91bf138c8105d1b20c589c0922",
+    "hash": "1acc1c253377d93a2b0149de9585ebad",
     "packages": [
         {
             "name": "shazam/easy-config",
-            "version": "0.1.2",
+            "version": "0.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/shazam/easy-config.git",
-                "reference": "37eb3eb62d0cf1047509532301f6031c4e74d1bd"
+                "reference": "b88122dcf59234f75154af6cd5577ed259363408"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/shazam/easy-config/zipball/37eb3eb62d0cf1047509532301f6031c4e74d1bd",
-                "reference": "37eb3eb62d0cf1047509532301f6031c4e74d1bd",
+                "url": "https://api.github.com/repos/shazam/easy-config/zipball/b88122dcf59234f75154af6cd5577ed259363408",
+                "reference": "b88122dcf59234f75154af6cd5577ed259363408",
                 "shasum": ""
             },
             "require": {
@@ -44,7 +44,7 @@
                 }
             ],
             "description": "Reads Yaml config files",
-            "time": "2014-12-09 20:04:24"
+            "time": "2015-04-27 10:15:14"
         },
         {
             "name": "symfony/yaml",
